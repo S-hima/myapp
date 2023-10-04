@@ -6,8 +6,8 @@ function App() {
   return (
     <div >
      
-     <nav>
-      <ul>
+     <nav className='header'>
+      <ul className='seema'>
         <li>
           <Link to="counter">Counter</Link>
         </li>
