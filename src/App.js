@@ -9,6 +9,7 @@ function App() {
      <nav className='header'>
       <ul className='seema'>
         <li>
+          
           <Link to="counter">Counter</Link>
         </li>
         <li>

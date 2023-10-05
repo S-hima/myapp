@@ -1,8 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Counter() {
+  const [value, setValue]= useState(0);
+  const decreaseValue= ()=>{
+    setValue(prev=>prev-1)
+
+  }
+  const increaseValue= ()=>{
+    setValue(prev=>prev+1)
+
+  }
   return (
-    <div>Counter</div>
+    <div>
+      <button onClick={decreaseValue} >
+        -
+      </button>
+      
+        <spam>{value}</spam>
+
+      <button onClick={increaseValue} >
+        +
+        </button> 
+    </div>
   )
 }
 

@@ -1,15 +1,14 @@
 .seema {
-  display:flex;
-  flex-direction: row;
-  gap: 20px;
-  list-style: none;
-}
-.header{
-  height: 40px;
+ 
+
+  width: 1000px; 
+  height: 200px; 
   background-color: pink; 
-  color: purple;
+  border: 2x solid;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+
+  
 }
-a {
-  color: black;
-  text-decoration: dotted;
-}
+
